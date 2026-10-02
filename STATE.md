@@ -23,10 +23,16 @@ Bootstrap copies the human's description of the product here, as given.
 - Bootstrap fills the constitution slots, roles and CODEOWNERS (`BOOTSTRAP.md`).
 - A fresh session challenges the bootstrap output against the floor.
 - The Engineering Lead approves.
+- Engineering Lead reviews `DRYRUN-JOBREVIEW-COMPILED.md` on branch `jobreview-compiled`
+  and decides which proposed changes to `docs/roles.yml` to accept.
 
 ## Open decisions
 
-None.
+- Eight seat reviews compiled to `DRYRUN-JOBREVIEW-COMPILED.md` (`jobreview-compiled`).
+  Engineering Lead must decide on: story authorship model (Product vs. Delivery, §4 Overlap A);
+  `[Builder, Operator]` incompatible pair (§4 Overlap D, three sessions agree);
+  Verifier qualified_layers expansion or D6 exception (§4 Overlap F);
+  frontend authoring tiebreaker between Architect and Designer (§4 Overlap B).
 
 ## Left mid-task
 
